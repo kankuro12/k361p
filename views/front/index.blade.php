@@ -16,9 +16,9 @@
                     <div class="col-12 col-lg-9">
                         <div class="welcome-text text-center">
                             <h6 data-animation="fadeInUp" data-delay="100ms"></h6>
-                            <h2 data-animation="fadeInUp" data-delay="300ms"> Pro Peace<span> Nepal</span> /h2>
+                            <h2 data-animation="fadeInUp" data-delay="300ms"> Pro Peace<span> Nepal</span> </h2>
 
-                                <!-- <a href="#" class="btn credit-btn mt-50" data-animation="fadeInUp" data-delay="700ms">Discover</a> -->
+                            <!-- <a href="#" class="btn credit-btn mt-50" data-animation="fadeInUp" data-delay="700ms">Discover</a> -->
                         </div>
                     </div>
                 </div>
