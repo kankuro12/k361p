@@ -1,4 +1,4 @@
-<?php $__env->startSection('title','MCCI - About Us'); ?>
+<?php $__env->startSection('title','propeace - About Us'); ?>
 <?php $__env->startSection('content'); ?>
 <!-- ##### Breadcrumb Area Start ##### -->
 <section class="breadcrumb-area bg-img bg-overlay jarallax" style="background-image: url(/assets/front/img/bg1.JPG);">
@@ -39,7 +39,7 @@
                 </div>
                 <div class="col-12 col-md-6">
                     <div class="about-thumbnail mb-100">
-                        <img src="/assets/front/img/mcciabout.jpg" alt="">
+                        <img src="/assets/front/img/propeaceabout.jpg" alt="">
                     </div>
                 </div>
             </div>

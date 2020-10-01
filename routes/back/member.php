@@ -20,7 +20,7 @@ $app->post('/add/',function($request,$response,$args){
      $mbrs->email = $parsed['email'];
      $mbrs->descr = $parsed['descr'];
      $mbrs->activity = $parsed['activity'];
-     MessageManager::SendMail($mbrs->email,'MCCI','Welcom to Mechi Chamber Of Commerce and Industry');
+     MessageManager::SendMail($mbrs->email,'propeace','Welcom to Mechi Chamber Of Commerce and Industry');
      $uploadedFile=$request->getUploadedFiles()['image'];
      $directory="assets/back/img/members";
      $uf=$uploadedFile;

@@ -2,7 +2,7 @@
 /**
  * front Group
  */
-$app->group('/mcci',function () use ($app) {
+$app->group('/propeace',function () use ($app) {
       /**
        * news Group
        */

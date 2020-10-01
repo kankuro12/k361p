@@ -49,4 +49,4 @@
 <?php echo $__env->yieldContent('script'); ?>
 </body>
 </html>
-<?php /* E:\NeedTechnoSoft\mcci\views/back/app.blade.php */ ?>
+<?php /* E:\NeedTechnoSoft\propeace\views/back/app.blade.php */ ?>

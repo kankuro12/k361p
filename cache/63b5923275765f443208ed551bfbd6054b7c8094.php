@@ -44,4 +44,4 @@
 </div>
 <?php $__env->stopSection(); ?>
 <?php echo $__env->make('back.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
-<?php /* E:\NeedTechnoSoft\mcci\views/back/event/list.blade.php */ ?>
+<?php /* E:\NeedTechnoSoft\propeace\views/back/event/list.blade.php */ ?>

@@ -117,4 +117,4 @@
 
 
 <ul>
-<?php /* E:\NeedTechnoSoft\mcci\views/back/menu.blade.php */ ?>
+<?php /* E:\NeedTechnoSoft\propeace\views/back/menu.blade.php */ ?>

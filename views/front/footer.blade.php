@@ -30,7 +30,7 @@
                 <div class="single-footer-widget mb-100">
                     <h5 class="widget-title">About Us</h5>
                     <!-- Nav -->
-                    {{-- <p style="color:#ffffff;">Mechi Chamber of Commerce and Industry, established with the establishment of Mechinagar Municipality, has crossed many climatic developments. In this period the union has gained lots of success..... </br> <a href="/mcci/about/" style="color:white;">See More</a></p> --}}
+                    {{-- <p style="color:#ffffff;">Mechi Chamber of Commerce and Industry, established with the establishment of Mechinagar Municipality, has crossed many climatic developments. In this period the union has gained lots of success..... </br> <a href="/propeace/about/" style="color:white;">See More</a></p> --}}
                 </div>
             </div>
 
@@ -120,7 +120,7 @@
 <script>
     function addMail(){
             var formData = new FormData(document.getElementById('mailing'))
-            axios.post('/mcci/supporter/',formData)
+            axios.post('/propeace/supporter/',formData)
             .then(function(response){
                 data = response.data;
                 document.getElementById('hide').innerHTML="<div style='color:white; font-size:25px;'><b> Thanks For Your Support !</b></div>";

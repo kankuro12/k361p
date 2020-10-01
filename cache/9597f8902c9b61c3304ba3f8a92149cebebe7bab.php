@@ -1,4 +1,4 @@
-<?php $__env->startSection('title','MCCI - News'); ?>
+<?php $__env->startSection('title','propeace - News'); ?>
 <?php $__env->startSection('content'); ?>
  <!-- ##### Breadcrumb Area Start ##### -->
  <section class="breadcrumb-area bg-img bg-overlay jarallax" style="background-image: url(/assets/front/img/bg-img/6.jpg);">
@@ -35,14 +35,14 @@
                     <div class="single-blog-area mb-70">
                        <div class="blog-content">
                             <span>News</span>
-                            <a href="/mcci/news/single/<?php echo e($new->id); ?>/" class="post-title"><?php echo e($new->title); ?></a>
+                            <a href="/propeace/news/single/<?php echo e($new->id); ?>/" class="post-title"><?php echo e($new->title); ?></a>
                             <div class="blog-meta">
                                 <a href="#" class="post-author"><img src="/assets/front/img/core-img/pencil.png" alt="">  <?php echo e($new->publisher); ?></a>
                                 <a href="#" class="post-date"><img src="/assets/front/img/core-img/calendar.png" alt="">  <?php echo e($new->published); ?></a>
                             </div>
                         </div>
                         <div class="blog-thumbnail">
-                            <a href="/mcci/news/single/<?php echo e($new->id); ?>/"><img src="/<?php echo e($new->image); ?>" alt=""></a>
+                            <a href="/propeace/news/single/<?php echo e($new->id); ?>/"><img src="/<?php echo e($new->image); ?>" alt=""></a>
                         </div>
                        
                     </div>
@@ -60,13 +60,13 @@
                                     </div>
 
                                     <ul>
-                                      <li><a href="/mcci/pastpresident/">Past President</a></li>
-                                        <li><a href="/mcci/secretariat/">secretariat</a></li>
-                                        <li><a href="/mcci/committee/">Our Committee</a></li>
-                                        <li><a href="/mcci/boardmember/">Executive Board Member</a></li>
-                                        <li><a href="/mcci/gallery/list/">Our Gallery</a></li>
-                                        <li><a href="/mcci/about/">About Us</a></li>
-                                        <li><a href="/mcci/contact/">Contact Us</a></li>
+                                      <li><a href="/propeace/pastpresident/">Past President</a></li>
+                                        <li><a href="/propeace/secretariat/">secretariat</a></li>
+                                        <li><a href="/propeace/committee/">Our Committee</a></li>
+                                        <li><a href="/propeace/boardmember/">Executive Board Member</a></li>
+                                        <li><a href="/propeace/gallery/list/">Our Gallery</a></li>
+                                        <li><a href="/propeace/about/">About Us</a></li>
+                                        <li><a href="/propeace/contact/">Contact Us</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -79,4 +79,4 @@
 <?php $__env->stopSection(); ?>
 
 <?php echo $__env->make('front.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
-<?php /* /home5/newsfilm/mcci/views/front/news/list.blade.php */ ?>
+<?php /* /home5/newsfilm/propeace/views/front/news/list.blade.php */ ?>

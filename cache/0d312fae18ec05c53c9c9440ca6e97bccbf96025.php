@@ -1,4 +1,4 @@
-<?php $__env->startSection('title','MCCI - Notice'); ?>
+<?php $__env->startSection('title','propeace - Notice'); ?>
 <?php $__env->startSection('content'); ?>
 <!-- ##### Breadcrumb Area Start ##### -->
 <section class="breadcrumb-area bg-img bg-overlay jarallax" style="background-image: url(/assets/front/img/bg-img/6.jpg);">
@@ -32,7 +32,7 @@
                     <?php $__currentLoopData = $notices; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $notice): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                                         <div class="feature-wrapper mb-30">
                                                <div class="feature-title-heading ">
-                                                    <h3><a href="/mcci/notice/single/<?php echo e($notice->id); ?>/" class=""><?php echo e($notice->title); ?></a></h3>
+                                                    <h3><a href="/propeace/notice/single/<?php echo e($notice->id); ?>/" class=""><?php echo e($notice->title); ?></a></h3>
                                                     <span></span>
                                                 </div>
                                                     <div class="feature-text">
@@ -57,13 +57,13 @@
                                     </div>
 
                                     <ul>
-                                       <li><a href="/mcci/pastpresident/">Past President</a></li>
-                                        <li><a href="/mcci/secretariat/">secretariat</a></li>
-                                        <li><a href="/mcci/committee/">Our Committee</a></li>
-                                        <li><a href="/mcci/boardmember/">Executive Board Member</a></li>
-                                        <li><a href="/mcci/gallery/list/">Our Gallery</a></li>
-                                        <li><a href="/mcci/about/">About Us</a></li>
-                                        <li><a href="/mcci/contact/">Contact Us</a></li>
+                                       <li><a href="/propeace/pastpresident/">Past President</a></li>
+                                        <li><a href="/propeace/secretariat/">secretariat</a></li>
+                                        <li><a href="/propeace/committee/">Our Committee</a></li>
+                                        <li><a href="/propeace/boardmember/">Executive Board Member</a></li>
+                                        <li><a href="/propeace/gallery/list/">Our Gallery</a></li>
+                                        <li><a href="/propeace/about/">About Us</a></li>
+                                        <li><a href="/propeace/contact/">Contact Us</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -75,4 +75,4 @@
 
 <?php $__env->stopSection(); ?>
 <?php echo $__env->make('front.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
-<?php /* /home5/newsfilm/mcci/views/front/notice/list.blade.php */ ?>
+<?php /* /home5/newsfilm/propeace/views/front/notice/list.blade.php */ ?>

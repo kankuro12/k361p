@@ -1,4 +1,4 @@
-<?php $__env->startSection('title','MCCI - Change Password'); ?>
+<?php $__env->startSection('title','propeace - Change Password'); ?>
 <?php $__env->startSection('content'); ?>
 <style>
     .closebtn {
@@ -122,13 +122,13 @@
                                     </div>
 
                                     <ul>
-                                        <li><a href="/mcci/pastpresident/">Past President</a></li>
-                                        <li><a href="/mcci/secretariat/">secretariat</a></li>
-                                        <li><a href="/mcci/committee/">Our Committee</a></li>
-                                        <li><a href="/mcci/boardmember/">Executive Board Member</a></li>
-                                        <li><a href="/mcci/gallery/list/">Our Gallery</a></li>
-                                        <li><a href="/mcci/about/">About Us</a></li>
-                                        <li><a href="/mcci/contact/">Contact Us</a></li>
+                                        <li><a href="/propeace/pastpresident/">Past President</a></li>
+                                        <li><a href="/propeace/secretariat/">secretariat</a></li>
+                                        <li><a href="/propeace/committee/">Our Committee</a></li>
+                                        <li><a href="/propeace/boardmember/">Executive Board Member</a></li>
+                                        <li><a href="/propeace/gallery/list/">Our Gallery</a></li>
+                                        <li><a href="/propeace/about/">About Us</a></li>
+                                        <li><a href="/propeace/contact/">Contact Us</a></li>
                                        
                                     </ul>
                                 </div>

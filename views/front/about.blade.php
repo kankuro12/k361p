@@ -1,5 +1,5 @@
 @extends('front.app')
-@section('title','MCCI - About Us')
+@section('title','propeace - About Us')
 @section('content')
 <!-- ##### Breadcrumb Area Start ##### -->
 <section class="breadcrumb-area bg-img bg-overlay jarallax" style="background-image: url(/assets/front/img/bg1.JPG);">

@@ -42,4 +42,4 @@
 </div>
 <?php $__env->stopSection(); ?>
 <?php echo $__env->make('back.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
-<?php /* /home5/newsfilm/mcci/views/back/notice/list.blade.php */ ?>
+<?php /* /home5/newsfilm/propeace/views/back/notice/list.blade.php */ ?>

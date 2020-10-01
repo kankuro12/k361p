@@ -49,4 +49,4 @@
 <?php echo $__env->yieldContent('script'); ?>
 </body>
 </html>
-<?php /* /home5/newsfilm/mcci/views/back/app.blade.php */ ?>
+<?php /* /home5/newsfilm/propeace/views/back/app.blade.php */ ?>

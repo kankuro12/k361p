@@ -117,4 +117,4 @@
 
 
 <ul>
-<?php /* /home5/newsfilm/mcci/views/back/menu.blade.php */ ?>
+<?php /* /home5/newsfilm/propeace/views/back/menu.blade.php */ ?>

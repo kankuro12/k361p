@@ -20,7 +20,7 @@ $app->post('login/',function($request,$response,$args){
      }else{
          $_SESSION['user'] = ['id'=>$member->id,'username'=>$parsed['phone'],'password'=>$parsed['password']];
         //  print_r( $_SESSION['user']);
-         return $response->withRedirect('/mcci/private/');
+         return $response->withRedirect('/propeace/private/');
      }
     });
 
@@ -46,10 +46,10 @@ $app->post('passchange/',function($request,$response,$args){
             $member->password = md5($parsed['password']);
             $member->save();
             $_SESSION['success'] = "Successfully Password Has Been Changed";
-            return $response->withRedirect('/mcci/passchange/');
+            return $response->withRedirect('/propeace/passchange/');
          }else{
              $_SESSION['error'] = "Invalid Current password";
-             return $response->withRedirect('/mcci/passchange/');
+             return $response->withRedirect('/propeace/passchange/');
          }
      }
 });

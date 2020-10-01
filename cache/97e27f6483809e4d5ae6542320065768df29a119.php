@@ -1,4 +1,4 @@
-<?php $__env->startSection('title','MCCI - Event'); ?>
+<?php $__env->startSection('title','propeace - Event'); ?>
 <?php $__env->startSection('content'); ?>
 <!-- ##### Breadcrumb Area Start ##### -->
 <section class="breadcrumb-area bg-img bg-overlay jarallax" style="background-image: url(/assets/front/img/bg-img/6.jpg);">
@@ -32,7 +32,7 @@
                     <div class="single-blog-area mb-70">
                        <div class="blog-content">
                             <span> Events</span>
-                            <a href="/mcci/event/single/<?php echo e($event->id); ?>/" class="post-title"><?php echo e($event->title); ?></a>
+                            <a href="/propeace/event/single/<?php echo e($event->id); ?>/" class="post-title"><?php echo e($event->title); ?></a>
                             <div class="blog-meta">
                                 <a href="#" class="post-date">Date:-  <?php echo e($event->eventdate); ?></a>  |
                                 <a href="#" class="post-author">Time:-  <?php echo e($event->eventtime); ?></a>
@@ -41,7 +41,7 @@
                             </div>
                         </div>
                         <div class="blog-thumbnail">
-                            <a href="/mcci/event/single/<?php echo e($event->id); ?>/"><img src="/<?php echo e($event->image); ?>" alt=""></a>
+                            <a href="/propeace/event/single/<?php echo e($event->id); ?>/"><img src="/<?php echo e($event->image); ?>" alt=""></a>
                         </div>
                     </div>
                 <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
@@ -58,13 +58,13 @@
                                     </div>
 
                                     <ul>
-                                       <li><a href="/mcci/pastpresident/">Past President</a></li>
-                                        <li><a href="/mcci/secretariat/">secretariat</a></li>
-                                        <li><a href="/mcci/committee/">Our Committee</a></li>
-                                        <li><a href="/mcci/boardmember/">Executive Board Member</a></li>
-                                        <li><a href="/mcci/gallery/list/">Our Gallery</a></li>
-                                        <li><a href="/mcci/about/">About Us</a></li>
-                                        <li><a href="/mcci/contact/">Contact Us</a></li>
+                                       <li><a href="/propeace/pastpresident/">Past President</a></li>
+                                        <li><a href="/propeace/secretariat/">secretariat</a></li>
+                                        <li><a href="/propeace/committee/">Our Committee</a></li>
+                                        <li><a href="/propeace/boardmember/">Executive Board Member</a></li>
+                                        <li><a href="/propeace/gallery/list/">Our Gallery</a></li>
+                                        <li><a href="/propeace/about/">About Us</a></li>
+                                        <li><a href="/propeace/contact/">Contact Us</a></li>
                                     </ul>
                                 </div>
                             </div>

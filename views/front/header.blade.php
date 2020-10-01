@@ -35,7 +35,7 @@
                 src="/assets/front/img/core-img/placeholder.png" alt=""> <span>Biratnagar-5, Morang Nepal
 
               </span></a>
-            <a href="#" data-toggle="tooltip" data-placement="bottom" title="mccijhapa@gmail.com"><img
+            <a href="#" data-toggle="tooltip" data-placement="bottom" title="propeacejhapa@gmail.com"><img
                 src="/assets/front/img/core-img/message.png" alt=""> <span>info@propeace.org.np</span></a>
 
           </div>
@@ -70,23 +70,23 @@
                 <li><a href="/">Home</a></li>
                 <li><a href="#">Members</a>
                   <ul class="dropdown">
-                    <li><a href="/mcci/boardmember/">Board Members</a></li>
-                    <li><a href="/mcci/secretariat/">Secretariat</a></li>
-                    <li><a href="/mcci/committee/">Committees</a></li>
-                    <li><a href="/mcci/pastpresident/">Past Presidents</a></li>
-                    <li><a href="/mcci/general/member/">General Member</a></li>
+                    <li><a href="/propeace/boardmember/">Board Members</a></li>
+                    <li><a href="/propeace/secretariat/">Secretariat</a></li>
+                    <li><a href="/propeace/committee/">Committees</a></li>
+                    <li><a href="/propeace/pastpresident/">Past Presidents</a></li>
+                    <li><a href="/propeace/general/member/">General Member</a></li>
                   </ul>
                 </li>
-                <li><a href="/mcci/service/list/">Services</a></li>
-                <li><a href="/mcci/notice/list/">Notices</a></li>
-                <li><a href="/mcci/news/list/">News</a></li>
-                <li><a href="/mcci/event/list/">Events</a></li>
-                <li><a href="/mcci/about/">About Us</a></li>
-                <li><a href="/mcci/contact/">Contact</a></li>
+                <li><a href="/propeace/service/list/">Services</a></li>
+                <li><a href="/propeace/notice/list/">Notices</a></li>
+                <li><a href="/propeace/news/list/">News</a></li>
+                <li><a href="/propeace/event/list/">Events</a></li>
+                <li><a href="/propeace/about/">About Us</a></li>
+                <li><a href="/propeace/contact/">Contact</a></li>
                 <li><a href="#">Pages</a>
                   <ul class="dropdown">
-                    <li><a href="/mcci/area/list/">Local Attraction</a></li>
-                    <li><a href="/mcci/gallery/list/">Galleries</a></li>
+                    <li><a href="/propeace/area/list/">Local Attraction</a></li>
+                    <li><a href="/propeace/gallery/list/">Galleries</a></li>
                   </ul>
                 </li>
               </ul>
@@ -116,7 +116,7 @@
         </button>
       </div>
       <div class="modal-body">
-        <form action="/mcci/login/" method="post">
+        <form action="/propeace/login/" method="post">
           <div class="form-group">
             <label for="user">User Name</label>
             <input type="text" class="form-control" name="phone">
@@ -151,11 +151,11 @@
       </div>
       <div class="modal-body">
         <ul>
-          <li><a href="/mcci/private/">My Account</a></li>
+          <li><a href="/propeace/private/">My Account</a></li>
           <hr>
-          <li><a href="/mcci/passchange/">Password Change</a></li>
+          <li><a href="/propeace/passchange/">Password Change</a></li>
           <hr>
-          <li><a href="/mcci/logout/">LogOut</a></li>
+          <li><a href="/propeace/logout/">LogOut</a></li>
         </ul>
       </div>
     </div>

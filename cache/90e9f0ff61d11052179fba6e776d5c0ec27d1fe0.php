@@ -1,4 +1,4 @@
-<?php $__env->startSection('title','MCCI - News'); ?>
+<?php $__env->startSection('title','propeace - News'); ?>
 <?php $__env->startSection('content'); ?>
  <!-- ##### Breadcrumb Area Start ##### -->
  <section class="breadcrumb-area bg-img bg-overlay jarallax" style="background-image: url(/assets/front/img/bg-img/6.jpg);">
@@ -77,7 +77,7 @@
                                                 </div>
                                                 <div class="news-content">
                                                     <span><?php echo e($news[$i]->published); ?></span>
-                                                    <a href="/mcci/news/single/<?php echo e($news[$i]->id); ?>/"><?php echo e($news[$i]->title); ?></a>
+                                                    <a href="/propeace/news/single/<?php echo e($news[$i]->id); ?>/"><?php echo e($news[$i]->title); ?></a>
                                                     <div class="news-meta">
                                                         <a href="#" class="post-author"><img src="/assets/front/img/core-img/pencil.png" alt=""> <?php echo e($news[$i]->publisher); ?></a>
                                                         <a href="#" class="post-date"><img src="/assets/front/img/core-img/calendar.png" alt=""><?php echo e(substr($news[$i]->getdate()->format('F d'),0,3)); ?></a>

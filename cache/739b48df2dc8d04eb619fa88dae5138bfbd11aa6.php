@@ -66,4 +66,4 @@ function googleTranslateElementInit() {
 <?php endif; ?>
 </body>
 </html>
-<?php /* /home5/newsfilm/mcci/views/front/app.blade.php */ ?>
+<?php /* /home5/newsfilm/propeace/views/front/app.blade.php */ ?>

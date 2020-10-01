@@ -63,4 +63,4 @@
 
 
 <?php echo $__env->make('back.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
-<?php /* /home5/newsfilm/mcci/views/back/boardmember/edit.blade.php */ ?>
+<?php /* /home5/newsfilm/propeace/views/back/boardmember/edit.blade.php */ ?>

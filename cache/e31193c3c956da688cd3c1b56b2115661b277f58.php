@@ -1,4 +1,4 @@
-<?php $__env->startSection('title','MCCI - Local Area'); ?>
+<?php $__env->startSection('title','propeace - Local Area'); ?>
 <?php $__env->startSection('content'); ?>
 <!-- ##### Breadcrumb Area Start ##### -->
 <section class="breadcrumb-area bg-img bg-overlay jarallax" style="background-image: url(/assets/front/img/bg-img/6.jpg);">

@@ -87,4 +87,4 @@
     </script>
 </body>
 </html>
-<?php /* E:\NeedTechnoSoft\mcci\views/back/adminlogin.blade.php */ ?>
+<?php /* E:\NeedTechnoSoft\propeace\views/back/adminlogin.blade.php */ ?>

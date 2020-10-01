@@ -15,7 +15,7 @@
                             <div class="welcome-text text-center">
                                 <h6 data-animation="fadeInUp" data-delay="100ms"></h6>  
                                 <h2 data-animation="fadeInUp" data-delay="300ms"> MECHI CHAMBER OF<span> COMMERCE AND</span> INDUSTRY</h2>
-                                <p data-animation="fadeInUp" data-delay="500ms">Mechi Chamber of Commerce & Industry (MCCI), Chamber Street, Jhapa, Dhulabari, Nepal</p>
+                                <p data-animation="fadeInUp" data-delay="500ms">Mechi Chamber of Commerce & Industry (propeace), Chamber Street, Jhapa, Dhulabari, Nepal</p>
                                 <!-- <a href="#" class="btn credit-btn mt-50" data-animation="fadeInUp" data-delay="700ms">Discover</a> -->
                             </div>
                         </div>
@@ -36,7 +36,7 @@
                             <div class="welcome-text text-center">
                                 <h6 data-animation="fadeInDown" data-delay="100ms"></h6>
                                 <h2 data-animation="fadeInUp" data-delay="300ms"> MECHI CHAMBER OF<span> COMMERCE AND</span> INDUSTRY</h2>
-                                <p data-animation="fadeInUp" data-delay="500ms">Mechi Chamber of Commerce & Industry (MCCI), Chamber Street, Jhapa, Dhulabari, Nepal</p>
+                                <p data-animation="fadeInUp" data-delay="500ms">Mechi Chamber of Commerce & Industry (propeace), Chamber Street, Jhapa, Dhulabari, Nepal</p>
                                 <!-- <a href="#" class="btn credit-btn mt-50" data-animation="fadeInDown" data-delay="700ms">Discover</a> -->
                             </div>
                         </div>
@@ -59,7 +59,7 @@
                             <div class="welcome-text text-center">
                                 <h6 data-animation="fadeInDown" data-delay="100ms"></h6>
                                 <h2 data-animation="fadeInUp" data-delay="300ms"> MECHI CHAMBER OF<span> COMMERCE AND</span> INDUSTRY</h2>
-                                <p data-animation="fadeInUp" data-delay="500ms">Mechi Chamber of Commerce & Industry (MCCI), Chamber Street, Jhapa, Dhulabari, Nepal</p>
+                                <p data-animation="fadeInUp" data-delay="500ms">Mechi Chamber of Commerce & Industry (propeace), Chamber Street, Jhapa, Dhulabari, Nepal</p>
                                 <!-- <a href="#" class="btn credit-btn mt-50" data-animation="fadeInDown" data-delay="700ms">Discover</a> -->
                             </div>
                         </div>
@@ -87,14 +87,14 @@
                     <div class="single-blog-area mb-40">
                        <div class="blog-content">
                             <span>Latest News</span>
-                            <a href="/mcci/news/single/<?php echo e($news[0]->id); ?>/" class="post-title"><?php echo e($news[0]->title); ?></a>
+                            <a href="/propeace/news/single/<?php echo e($news[0]->id); ?>/" class="post-title"><?php echo e($news[0]->title); ?></a>
                             <div class="blog-meta">
                                 <a href="#" class="post-author"><img src="/assets/front/img/core-img/pencil.png" alt="">  <?php echo e($news[0]->publisher); ?></a>
                                 <a href="#" class="post-date"><img src="/assets/front/img/core-img/calendar.png" alt="">  <?php echo e($news[0]->published); ?></a>
                             </div>
                         </div>
                         <div class="blog-thumbnail">
-                            <a href="/mcci/news/single/<?php echo e($news[0]->id); ?>/"><img src="/<?php echo e($news[0]->image); ?>" alt=""></a>
+                            <a href="/propeace/news/single/<?php echo e($news[0]->id); ?>/"><img src="/<?php echo e($news[0]->image); ?>" alt=""></a>
                         </div>
                         <p><?php echo substr($news[0]->descr,0,570); ?>....</p>
                     </div>
@@ -119,7 +119,7 @@
                                                 </div>
                                                 <div class="news-content">
                                                     <span><?php echo e($news[$i]->published); ?></span>
-                                                    <a href="/mcci/news/single/<?php echo e($news[$i]->id); ?>/"><?php echo e($news[$i]->title); ?></a>
+                                                    <a href="/propeace/news/single/<?php echo e($news[$i]->id); ?>/"><?php echo e($news[$i]->title); ?></a>
                                                     <div class="news-meta">
                                                         <a href="#" class="post-author"><img src="/assets/front/img/core-img/pencil.png" alt=""> <?php echo e($news[$i]->publisher); ?></a>
                                                         <a href="#" class="post-date"><img src="/assets/front/img/core-img/calendar.png" alt=""><?php echo e(substr($news[$i]->getdate()->format('d F'),0,6)); ?></a>
@@ -153,7 +153,7 @@
                     <div class="single-blog-area mb-70">
                        <div class="blog-content">
                             <span>Comming Events</span>
-                            <a href="/mcci/event/single/<?php echo e($event->id); ?>/" class="post-title"><?php echo e($event->title); ?></a>
+                            <a href="/propeace/event/single/<?php echo e($event->id); ?>/" class="post-title"><?php echo e($event->title); ?></a>
                             <div class="blog-meta">
                                 <a href="#" class="post-date">Date:-  <?php echo e($event->eventdate); ?></a>  |
                                 <a href="#" class="post-author">Time:-  <?php echo e($event->eventtime); ?></a>
@@ -162,7 +162,7 @@
                             </div>
                         </div>
                         <div class="blog-thumbnail">
-                            <a href="/mcci/event/single/<?php echo e($event->id); ?>/"><img src="/<?php echo e($event->image); ?>" alt=""></a>
+                            <a href="/propeace/event/single/<?php echo e($event->id); ?>/"><img src="/<?php echo e($event->image); ?>" alt=""></a>
                         </div>
                         <p><?php echo substr($event->descr,0,570); ?>....</p>
                     </div>
@@ -181,7 +181,7 @@
                                             <?php $__currentLoopData = $notices; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $notice): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                                                 <div class="feature-wrapper mb-30">
                                                     <div class="feature-title-heading ">
-                                                    <h3><a href="/mcci/notice/single/<?php echo e($notice->id); ?>/" class=""><?php echo e($notice->title); ?></a></h3>
+                                                    <h3><a href="/propeace/notice/single/<?php echo e($notice->id); ?>/" class=""><?php echo e($notice->title); ?></a></h3>
                                                     <span></span>
                                                     </div>
                                                     <div class="feature-text">
@@ -205,4 +205,4 @@
 
 <?php $__env->stopSection(); ?>
 <?php echo $__env->make('front.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
-<?php /* E:\NeedTechnoSoft\mcci\views/front/index.blade.php */ ?>
+<?php /* E:\NeedTechnoSoft\propeace\views/front/index.blade.php */ ?>

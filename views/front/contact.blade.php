@@ -1,5 +1,5 @@
 @extends('front.app')
-@section('title','MCCI - Contact')
+@section('title','propeace - Contact')
 @section('content')
 <!-- ##### Breadcrumb Area Start ##### -->
 <section class="breadcrumb-area bg-img bg-overlay jarallax"
@@ -127,7 +127,7 @@
                         <div class="contact-form-area contact-page">
                             <h4 class="mb-50">Send a message</h4>
 
-                            <form action="/mcci/messages/" method="post">
+                            <form action="/propeace/messages/" method="post">
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="form-group">

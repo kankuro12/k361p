@@ -1,4 +1,4 @@
-<?php $__env->startSection('title','MCCI - Gallery'); ?>
+<?php $__env->startSection('title','propeace - Gallery'); ?>
 <?php $__env->startSection('content'); ?>
 <!-- ##### Breadcrumb Area Start ##### -->
 <section class="breadcrumb-area bg-img bg-overlay jarallax" style="background-image: url(/assets/front/img/bg-img/6.jpg);">
@@ -80,4 +80,4 @@
     </script>
 <?php $__env->stopSection(); ?>
 <?php echo $__env->make('front.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
-<?php /* /home5/newsfilm/mcci/views/front/gallery/list.blade.php */ ?>
+<?php /* /home5/newsfilm/propeace/views/front/gallery/list.blade.php */ ?>

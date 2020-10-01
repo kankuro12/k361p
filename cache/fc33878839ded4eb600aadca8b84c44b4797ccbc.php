@@ -27,7 +27,7 @@
                     <div class="single-footer-widget mb-100">
                         <h5 class="widget-title">About Us</h5>
                         <!-- Nav -->
-                      <p style="color:#ffffff;">Mechi Chamber of Commerce and Industry, established with the establishment of Mechinagar Municipality, has crossed many climatic developments. In this period the union has gained lots of success..... </br> <a href="/mcci/about/" style="color:white;">See More</a></p>
+                      <p style="color:#ffffff;">Mechi Chamber of Commerce and Industry, established with the establishment of Mechinagar Municipality, has crossed many climatic developments. In this period the union has gained lots of success..... </br> <a href="/propeace/about/" style="color:white;">See More</a></p>
                     </div>
                 </div>
 
@@ -76,7 +76,7 @@
                 <div class="single-footer-widget mb-100">
                 <h5 class="widget-title">Contact Us</h5>
                 <div id="google_translate_element"></div>
-                <p style="color:#ffffff;">Mechi Chamber of Commerce & Industry (MCCI), Dhulabari, Jhapa, Nepal</p> 
+                <p style="color:#ffffff;">Mechi Chamber of Commerce & Industry (propeace), Dhulabari, Jhapa, Nepal</p> 
                    <P style="color:#ffffff;">Tel:- 023-560035/560450</P>
                     <p style="color:#ffffff;">Fax No:- 00977-23560658</p>
                     <p style="color:#ffffff;">Website:- www.mechicci.org.np</p>
@@ -97,7 +97,7 @@
 
                             <!-- Copywrite Text -->
                             <p class="copywrite-text"><a href="#"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | MCCI <i class="fa fa-heart-o" aria-hidden="true"></i>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | propeace <i class="fa fa-heart-o" aria-hidden="true"></i>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                         </div>
                     </div>
@@ -109,7 +109,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script>
         function addMail(){
             var formData = new FormData(document.getElementById('mailing'))
-            axios.post('/mcci/supporter/',formData)
+            axios.post('/propeace/supporter/',formData)
             .then(function(response){
                 data = response.data;
                 document.getElementById('hide').innerHTML="<div style='color:white; font-size:25px;'><b> Thanks For Your Support !</b></div>";
@@ -118,4 +118,4 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
             })
         }
     </script>
-<?php /* /home5/newsfilm/mcci/views/front/footer.blade.php */ ?>
+<?php /* /home5/newsfilm/propeace/views/front/footer.blade.php */ ?>

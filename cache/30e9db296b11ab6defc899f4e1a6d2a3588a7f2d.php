@@ -66,4 +66,4 @@ function googleTranslateElementInit() {
 <?php endif; ?>
 </body>
 </html>
-<?php /* E:\NeedTechnoSoft\mcci\views/front/app.blade.php */ ?>
+<?php /* E:\NeedTechnoSoft\propeace\views/front/app.blade.php */ ?>

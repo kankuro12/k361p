@@ -8,7 +8,7 @@
         <!-- Single Slide -->
         <div class="single-slide bg-img">
             <!-- Background Image-->
-            <div class="slide-bg-img bg-img bg-overlay" style="background-image: url(/assets/front/img/mcci.jpeg);">
+            <div class="slide-bg-img bg-img bg-overlay" style="background-image: url(/assets/front/img/propeace.jpeg);">
             </div>
             <!-- Welcome Text -->
             <div class="container h-100">
@@ -50,7 +50,7 @@
                     <div class="single-blog-area mb-40">
                         <div class="blog-content">
                             <span>Latest News</span>
-                            <a href="/mcci/news/single/{{$news[0]->id}}/" class="post-title">{{$news[0]->title}}</a>
+                            <a href="/propeace/news/single/{{$news[0]->id}}/" class="post-title">{{$news[0]->title}}</a>
                             <div class="blog-meta">
                                 <a href="#" class="post-author"><img src="/assets/front/img/core-img/pencil.png" alt="">
                                     {{$news[0]->publisher}}</a>
@@ -59,7 +59,8 @@
                             </div>
                         </div>
                         <div class="blog-thumbnail">
-                            <a href="/mcci/news/single/{{$news[0]->id}}/"><img src="/{{$news[0]->image}}" alt=""></a>
+                            <a href="/propeace/news/single/{{$news[0]->id}}/"><img src="/{{$news[0]->image}}"
+                                    alt=""></a>
                         </div>
                         <p>{!!substr($news[0]->descr,0,570)!!}....</p>
                     </div>
@@ -83,7 +84,7 @@
                                     </div>
                                     <div class="news-content">
                                         <span>{{$news[$i]->published}}</span>
-                                        <a href="/mcci/news/single/{{$news[$i]->id}}/">{{$news[$i]->title}}</a>
+                                        <a href="/propeace/news/single/{{$news[$i]->id}}/">{{$news[$i]->title}}</a>
                                         <div class="news-meta">
                                             <a href="#" class="post-author"><img
                                                     src="/assets/front/img/core-img/pencil.png" alt="">
@@ -121,7 +122,7 @@
                     <div class="single-blog-area mb-70">
                         <div class="blog-content">
                             <span>Comming Events</span>
-                            <a href="/mcci/event/single/{{$event->id}}/" class="post-title">{{$event->title}}</a>
+                            <a href="/propeace/event/single/{{$event->id}}/" class="post-title">{{$event->title}}</a>
                             <div class="blog-meta">
                                 <a href="#" class="post-date">Date:- {{$event->eventdate}}</a> |
                                 <a href="#" class="post-author">Time:- {{$event->eventtime}}</a>
@@ -130,7 +131,7 @@
                             </div>
                         </div>
                         <div class="blog-thumbnail">
-                            <a href="/mcci/event/single/{{$event->id}}/"><img src="/{{$event->image}}" alt=""></a>
+                            <a href="/propeace/event/single/{{$event->id}}/"><img src="/{{$event->image}}" alt=""></a>
                         </div>
                         <p>{!!substr($event->descr,0,570)!!}....</p>
                     </div>
@@ -149,7 +150,8 @@
                             @foreach($notices as $notice)
                             <div class="feature-wrapper mb-30">
                                 <div class="feature-title-heading ">
-                                    <h3><a href="/mcci/notice/single/{{$notice->id}}/" class="">{{$notice->title}}</a>
+                                    <h3><a href="/propeace/notice/single/{{$notice->id}}/"
+                                            class="">{{$notice->title}}</a>
                                     </h3>
                                     <span></span>
                                 </div>

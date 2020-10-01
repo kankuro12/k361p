@@ -1,4 +1,4 @@
-<?php $__env->startSection('title','MCCI - General Members'); ?>
+<?php $__env->startSection('title','propeace - General Members'); ?>
 <?php $__env->startSection('content'); ?>
 <!-- ##### Breadcrumb Area Start ##### -->
 <section class="breadcrumb-area bg-img bg-overlay jarallax" style="background-image: url(/assets/front/img/bg-img/13.jpg);">
@@ -63,13 +63,13 @@
                                     </div>
 
                                     <ul>
-                                       <li><a href="/mcci/pastpresident/">Past President</a></li>
-                                        <li><a href="/mcci/secretariat/">secretariat</a></li>
-                                        <li><a href="/mcci/committee/">Our Committee</a></li>
-                                        <li><a href="/mcci/boardmember/">Executive Board Member</a></li>
-                                        <li><a href="/mcci/gallery/list/">Our Gallery</a></li>
-                                        <li><a href="/mcci/about/">About Us</a></li>
-                                        <li><a href="/mcci/contact/">Contact Us</a></li>
+                                       <li><a href="/propeace/pastpresident/">Past President</a></li>
+                                        <li><a href="/propeace/secretariat/">secretariat</a></li>
+                                        <li><a href="/propeace/committee/">Our Committee</a></li>
+                                        <li><a href="/propeace/boardmember/">Executive Board Member</a></li>
+                                        <li><a href="/propeace/gallery/list/">Our Gallery</a></li>
+                                        <li><a href="/propeace/about/">About Us</a></li>
+                                        <li><a href="/propeace/contact/">Contact Us</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -81,4 +81,4 @@
 
 <?php $__env->stopSection(); ?>
 <?php echo $__env->make('front.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
-<?php /* E:\NeedTechnoSoft\mcci\views/front/secretary/general.blade.php */ ?>
+<?php /* E:\NeedTechnoSoft\propeace\views/front/secretary/general.blade.php */ ?>

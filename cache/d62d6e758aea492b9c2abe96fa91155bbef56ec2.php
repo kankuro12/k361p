@@ -87,4 +87,4 @@
     </script>
 </body>
 </html>
-<?php /* /home5/newsfilm/mcci/views/back/adminlogin.blade.php */ ?>
+<?php /* /home5/newsfilm/propeace/views/back/adminlogin.blade.php */ ?>

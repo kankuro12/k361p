@@ -1,4 +1,4 @@
-<?php $__env->startSection('title','MCCI - Contact'); ?>
+<?php $__env->startSection('title','propeace - Contact'); ?>
 <?php $__env->startSection('content'); ?>
 <!-- ##### Breadcrumb Area Start ##### -->
 <section class="breadcrumb-area bg-img bg-overlay jarallax" style="background-image: url(/assets/front/img/bg-img/13.jpg);">
@@ -29,7 +29,7 @@
                     <div class="single-contact-area mb-100">
                         <!-- Logo -->
                      
-                        <a href="#" class="d-block mb-50"><img src="/assets/front/img/MCCI.png" alt="" style="height:150px;width:150px;"></a>
+                        <a href="#" class="d-block mb-50"><img src="/assets/front/img/propeace.png" alt="" style="height:150px;width:150px;"></a>
                         <p>Morbi ut dapibus dui. Sed ut iaculis elit, quis varius mauris. Integer ut ultricies orci, lobortis egestas sem. Tut dapibus dui. Sed ut iaculis elit, quis varius mauris. Integer ut ultricies orci, lobortis.</p>
                     </div>
                 </div>
@@ -98,7 +98,7 @@
                                         <img src="/assets/front/img/core-img/message2.png" alt="">
                                     </div>
                                     <div class="text">
-                                        <p>mccijhapa@gmail.com</p>
+                                        <p>propeacejhapa@gmail.com</p>
                                         <span>we reply in 24 hrs</span>
                                     </div>
                                 </div>
@@ -122,7 +122,7 @@
                             <div class="contact-form-area contact-page">
                                 <h4 class="mb-50">Send a message</h4>
 
-                                <form action="/mcci/messages/" method="post">
+                                <form action="/propeace/messages/" method="post">
                                     <div class="row">
                                         <div class="col-lg-6">
                                             <div class="form-group">
@@ -160,4 +160,4 @@
 
 <?php $__env->stopSection(); ?>
 <?php echo $__env->make('front.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
-<?php /* E:\NeedTechnoSoft\mcci\views/front/contact.blade.php */ ?>
+<?php /* E:\NeedTechnoSoft\propeace\views/front/contact.blade.php */ ?>

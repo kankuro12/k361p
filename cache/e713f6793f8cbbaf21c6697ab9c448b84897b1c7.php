@@ -1,4 +1,4 @@
-<?php $__env->startSection('title','MCCI - Boardmember'); ?>
+<?php $__env->startSection('title','propeace - Boardmember'); ?>
 <?php $__env->startSection('content'); ?>
 <!-- ##### Breadcrumb Area Start ##### -->
 <section class="breadcrumb-area bg-img bg-overlay jarallax" style="background-image: url(/assets/front/img/bg-img/13.jpg);">
@@ -85,4 +85,4 @@
 <!-- Team -->
  <?php $__env->stopSection(); ?>
 <?php echo $__env->make('front.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
-<?php /* E:\NeedTechnoSoft\mcci\views/front/committee/boardmember.blade.php */ ?>
+<?php /* E:\NeedTechnoSoft\propeace\views/front/committee/boardmember.blade.php */ ?>
