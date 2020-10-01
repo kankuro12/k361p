@@ -1,12 +1,14 @@
 <?php
 require "vendor/autoload.php";
+
 use Illuminate\Database\Capsule\Manager as DB;
+
 $DB = new DB;
-$modeldir="model\\";
-$setting=[
+$modeldir = "model\\";
+$setting = [
     "driver" => "mysql",
-    "host" =>"127.0.0.1",
-    "database" => "newsfilm_mcci",
+    "host" => "127.0.0.1",
+    "database" => "newsfilm_propeace",
     "username" => "newsfilm_mcci",
     "password" => "Mechi123!@#"
 ];
