@@ -115,8 +115,8 @@
 
     <!-- ##### Google Maps ##### -->
     <div class="map-area">
-        <iframe src="<iframe src="
-            https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d28575.96307108287!2d87.26553888234461!3d26.45587773743429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sbiratnagar%20-5!5e0!3m2!1sen!2snp!4v1601548179346!5m2!1sen!2snp"
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d28575.96307108287!2d87.26553888234461!3d26.45587773743429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sbiratnagar%20-5!5e0!3m2!1sen!2snp!4v1601548179346!5m2!1sen!2snp"
             width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
         <!-- Contact Area -->
         <div class="contact---area">
