@@ -77,7 +77,7 @@
                     <li><a href="/propeace/general/member/">General Member</a></li>
                   </ul>
                 </li>
-                <li><a href="/propeace/service/list/">Services</a></li>
+                <li><a href="https://library.propeace.org.np">Library</a></li>
                 <li><a href="/propeace/notice/list/">Notices</a></li>
                 <li><a href="/propeace/news/list/">News</a></li>
                 <li><a href="/propeace/event/list/">Events</a></li>

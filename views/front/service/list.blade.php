@@ -27,7 +27,7 @@
 <section class="news-area section-padding-10" style="padding-top:90px;">
     <div class="container">
 
-        <div class="row">
+        {{-- <div class="row">
             <!-- Single News Area -->
             <div class="col-12 col-lg-8">
 
@@ -213,7 +213,7 @@
                 </div>
             </div>
             <!-- side bar end -->
-        </div>
+        </div> --}}
     </div>
 </section>
 
